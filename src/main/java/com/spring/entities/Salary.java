@@ -3,7 +3,7 @@ package com.spring.entities;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * Created by test on 23.04.17.

@@ -1,7 +1,7 @@
 package com.spring.entities;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * Created by test on 23.04.17.
@@ -10,7 +10,7 @@ import java.sql.Date;
 @Table(name="employees")
 public class Employee {
 
-    private enum Gender {
+    public enum Gender {
         M,
         F
     }

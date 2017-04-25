@@ -6,8 +6,6 @@ import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
 import org.springframework.context.annotation.Bean;
 
-import java.util.Arrays;
-
 
 /**
  * Created by test on 23.04.17.
@@ -16,6 +14,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+
         SpringApplication.run(Main.class, args);
     }
 
